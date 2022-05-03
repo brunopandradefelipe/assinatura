@@ -3,7 +3,7 @@ require_once 'vendor/autoload.php';
 
 use Saymontavares\OpenPfx\Pfx;
 
-$cert = 'certificado1.pfx';
+$cert = 'alan.pfx';
 $cert_password = '1234';
 
 try {

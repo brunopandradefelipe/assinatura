@@ -32,15 +32,15 @@ class PDF extends FPDI
 
 // Rotas
 $diretorio = getcwd() . '/';
-$nomeCertPFX = $diretorio . 'certificado1.pfx';
+$nomeCertPFX = $diretorio . 'pierre.pfx';
 $documentoParaAssinar = $diretorio . '50948.pdf';
-$nomeCertCRT = $diretorio . 'certificado1.pem';
+$nomeCertCRT = $diretorio . 'teste.pem';
 $password = '1234';
 
 
 // Criando CRT caso não exista
-if (!file_exists('tcpdf.crt')) {
-    shell_exec("openssl pkcs12 -in $nomeCertPFX -out $nomeCertCRT -nodes -passin pass:$password");
+if (!file_exists($nomeCertCRT)) {
+    var_dump(shell_exec("openssl pkcs12 -in $nomeCertPFX -out $nomeCertCRT -nodes -passin pass:$password"));
 }
 
 $pkcs12 = file_get_contents($nomeCertPFX);
@@ -97,6 +97,8 @@ for ($i = 0; $i < $numPages; $i++) {
 }
 
 //Manda o PDF pra download
-$pdf->Output('laudo.pdf', 'D');
+$pdf->Output('./assinado/laudo.pdf', 'D');
 
 // openssl x509 -outform der -in your-cert.pem -out your-cert.crt
+
+// openssl pkcs12 -in certificado.pfx -out certificado.pem -nodes

@@ -1,7 +1,3 @@
-Bag Attributes
-    localKeyID: BB D3 48 D0 17 72 59 E8 6B D5 3D DF 9E 8D 42 C2 28 62 69 C6 
-    friendlyName: Alan Mathison Turing
-Key Attributes: <No Attributes>
 -----BEGIN PRIVATE KEY-----
 MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDM21deqOzeW618
 gIXiqNanpBklOyMlhvHrnAv/MrYe9ltebn+L5Q4/jqvAF9pW5vUGXm84BiWPoAN8
@@ -30,13 +26,6 @@ LvllnYwUBvrcENj9tkqsW8ud9CauQh1eWzcya9nVTzrZlWz4IofSQuwrJjzRyPFf
 Us3ZV4uNgGgXQL3h8zlfXb9jQqZf8ZoKXzbKNJJmMHR4+MyckFrZei+zDXuCW3Xa
 Qt6sh/DbSed9VTXtbTMztxU=
 -----END PRIVATE KEY-----
-Bag Attributes
-    localKeyID: BB D3 48 D0 17 72 59 E8 6B D5 3D DF 9E 8D 42 C2 28 62 69 C6 
-    friendlyName: Alan Mathison Turing
-subject=C = BR, O = Lacuna Software, CN = Alan Mathison Turing
-
-issuer=C = BR, O = Lacuna Software, OU = IT, CN = Lacuna CA Test v1
-
 -----BEGIN CERTIFICATE-----
 MIIGaDCCBFCgAwIBAgIRAPGmgOkXmWJEgp0WAtFWPn0wDQYJKoZIhvcNAQENBQAw
 UDELMAkGA1UEBhMCQlIxGDAWBgNVBAoTD0xhY3VuYSBTb2Z0d2FyZTELMAkGA1UE
