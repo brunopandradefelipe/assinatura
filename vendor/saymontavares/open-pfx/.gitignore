@@ -1,5 +1,0 @@
-*.pfx
-*.cer
-*.pem
-composer.lock
-vendor/*
